@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Reflection.Metadata;
 using System.Text;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
@@ -22,18 +22,16 @@ namespace QuickMapper.Compiler
                         "System.Linq",
                         "System.Text",
                         "System.Text.RegularExpressions",
-                        "System.Collections.Generic"
+                        "System.Collections.Generic",
+                        "System.Diagnostics"
             };
 
-
-        private static string runtimePath = @"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\{0}.dll";
-        
         private static readonly IEnumerable<MetadataReference> DefaultReferences =
             new[]
             {
-                        MetadataReference.CreateFromFile(string.Format(runtimePath, "mscorlib")),
-                        MetadataReference.CreateFromFile(string.Format(runtimePath, "System")),
-                        MetadataReference.CreateFromFile(string.Format(runtimePath, "System.Core"))
+                MetadataReference.CreateFromFile(typeof(object).Assembly.Location),
+                MetadataReference.CreateFromFile(typeof(Uri).Assembly.Location),
+                MetadataReference.CreateFromFile(typeof(Enumerable).Assembly.Location)
             };
 
         private static readonly CSharpCompilationOptions DefaultCompilationOptions =
@@ -45,6 +43,72 @@ namespace QuickMapper.Compiler
         {
             var stringText = SourceText.From(text, Encoding.UTF8);
             return SyntaxFactory.ParseSyntaxTree(stringText, options, filename);
+        }
+
+        public void Config()
+        {
+            InferredMapper mapper = new InferredMapper();
+            mapper.Config();
+            foreach (var kvp in mapper.MapTypes)
+            {
+                
+                var sb = new StringBuilder();
+                sb.Append(@"using System;
+
+                namespace QuickMapper
+                {
+                    public class QuickMapper
+                    {
+                        public void Write(string message)
+                        {
+                            Console.WriteLine(message);
+                        }
+                    }
+                }");
+
+                var syntaxTree = CSharpSyntaxTree.ParseText(sb.ToString());
+
+                var assemblyName = Path.GetRandomFileName();
+                var references = new List<MetadataReference>(DefaultReferences);
+
+                var compilation = CSharpCompilation.Create(
+                    assemblyName,
+                    new[] { syntaxTree },
+                    references,
+                    DefaultCompilationOptions);
+
+                using (var ms = new MemoryStream())
+                {
+
+                    var result = compilation.Emit(ms);
+
+                    if (!result.Success)
+                    {
+                        var failures = result.Diagnostics.Where(diagnostic =>
+                            diagnostic.IsWarningAsError ||
+                            diagnostic.Severity == DiagnosticSeverity.Error);
+
+                        foreach (var diagnostic in failures)
+                        {
+                            Console.Error.WriteLine("{0}: {1}", diagnostic.Id, diagnostic.GetMessage());
+                        }
+                    }
+                    else
+                    {
+                        ms.Seek(0, SeekOrigin.Begin);
+                        var assembly = Assembly.Load(ms.ToArray());
+
+                        var type = assembly.GetType("RoslynCompileSample.Writer");
+                        var obj = Activator.CreateInstance(type);
+                        type.InvokeMember("Write",
+                            BindingFlags.Default | BindingFlags.InvokeMethod,
+                            null,
+                            obj,
+                            new object[] { "Hello World" });
+                    }
+                }
+            }
+            
         }
 
         public void Test()
@@ -63,19 +127,18 @@ namespace QuickMapper.Compiler
                     }
                 }");
 
-            //var dd = typeof(Enumerable).GetTypeInfo().Assembly.Location;
-            //var coreDir = Directory.GetParent(dd);
-            
             var assemblyName = Path.GetRandomFileName();
+            var references = new List<MetadataReference>(DefaultReferences);
 
-            CSharpCompilation compilation = CSharpCompilation.Create(
+            var compilation = CSharpCompilation.Create(
                 assemblyName,
                 new[] { syntaxTree },
-                DefaultReferences,
+                references,
                 DefaultCompilationOptions);
 
             using (var ms = new MemoryStream())
             {
+                
                 var result = compilation.Emit(ms);
 
                 if (!result.Success)
@@ -103,7 +166,6 @@ namespace QuickMapper.Compiler
                         new object[] { "Hello World" });
                 }
             }
-
         }
     }
 }
