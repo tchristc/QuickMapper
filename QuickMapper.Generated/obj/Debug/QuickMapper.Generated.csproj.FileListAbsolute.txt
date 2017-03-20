@@ -5,3 +5,10 @@ c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper.Gener
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper.Generated\bin\Debug\QuickMapper.pdb
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper.Generated\obj\Debug\QuickMapper.Generated.dll
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper.Generated\obj\Debug\QuickMapper.Generated.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\bin\Debug\QuickMapper.Generated.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\bin\Debug\QuickMapper.Generated.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\bin\Debug\QuickMapper.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\bin\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\obj\Debug\QuickMapper.Generated.csprojResolveAssemblyReference.cache
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\obj\Debug\QuickMapper.Generated.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Generated\obj\Debug\QuickMapper.Generated.pdb

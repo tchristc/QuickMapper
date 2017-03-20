@@ -2,3 +2,8 @@ c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\bin\D
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\bin\Debug\QuickMapper.pdb
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\obj\Debug\QuickMapper.dll
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\obj\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\QuickMapper.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.csprojResolveAssemblyReference.cache
+E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.dll
+E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.pdb
