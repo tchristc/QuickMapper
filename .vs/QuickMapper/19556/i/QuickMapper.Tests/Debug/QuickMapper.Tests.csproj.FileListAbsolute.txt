@@ -1,0 +1,8 @@
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\QuickMapper.Tests.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\QuickMapper.Tests.pdb
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\i\QuickMapper.Tests\Debug\QuickMapper.Tests.csprojResolveAssemblyReference.cache
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\i\QuickMapper.Tests\Debug\QuickMapper.Tests.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\i\QuickMapper.Tests\Debug\QuickMapper.Tests.pdb

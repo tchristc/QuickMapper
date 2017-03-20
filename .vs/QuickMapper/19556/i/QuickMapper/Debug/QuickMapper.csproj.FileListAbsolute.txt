@@ -1,0 +1,4 @@
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\bin\Debug\QuickMapper.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\b\bin\Debug\QuickMapper.pdb
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\i\QuickMapper\Debug\QuickMapper.dll
+c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\.vs\QuickMapper\19556\i\QuickMapper\Debug\QuickMapper.pdb
