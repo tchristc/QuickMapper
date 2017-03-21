@@ -5,7 +5,7 @@
 *Install-Package QuickMapper -Version 1.0.0
 ```
 
-###CI Build
+### CI Build
 |Branch|Debug x86|
 |:--:|:--:|
 |**master**|[![quickmapper-ci MyGet Build Status](https://www.myget.org/BuildSource/Badge/quickmapper-ci?identifier=581f5f6a-603c-4381-8b19-eebf295fccfa)](https://www.myget.org/)
