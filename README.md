@@ -1,5 +1,15 @@
 ## Welcome to the QuickMapper
 
+###CI Package
+[MyGet](https://www.myget.org/feed/quickmapper-ci/package/nuget/QuickMapper)
+Install-Package QuickMapper -Version 1.0.0
+
+###CI Build
+[![quickmapper-ci MyGet Build Status](https://www.myget.org/BuildSource/Badge/quickmapper-ci?identifier=581f5f6a-603c-4381-8b19-eebf295fccfa)](https://www.myget.org/)
+[NuGet V3](https://www.myget.org/F/quickmapper-ci/api/v3/index.json)
+[NuGet V2](https://www.myget.org/F/quickmapper-ci/api/v2)
+
+
 ### Code
 ```cs
 var person = new Person { FirstName = "Tom", LastName = "Test" };
