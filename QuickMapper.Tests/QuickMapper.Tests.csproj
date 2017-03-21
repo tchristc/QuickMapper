@@ -150,7 +150,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Domain.cs" />
+    <Compile Include="InferredTypeMapTests.cs" />
+    <Compile Include="QuickMapperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,10 +160,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QuickMapper.Compiler\QuickMapper.Compiler.csproj">
-      <Project>{d9e81953-fa0c-4ed7-b47d-faef648d63a4}</Project>
-      <Name>QuickMapper.Compiler</Name>
-    </ProjectReference>
     <ProjectReference Include="..\QuickMapper\QuickMapper.csproj">
       <Project>{b3c860ae-2ef3-4014-a1d1-a3166cd7f214}</Project>
       <Name>QuickMapper</Name>

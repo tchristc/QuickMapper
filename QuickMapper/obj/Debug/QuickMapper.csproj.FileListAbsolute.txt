@@ -2,8 +2,39 @@ c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\bin\D
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\bin\Debug\QuickMapper.pdb
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\obj\Debug\QuickMapper.dll
 c:\users\tom\documents\visual studio 2017\Projects\QuickMapper\QuickMapper\obj\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.csprojResolveAssemblyReference.cache
 E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\QuickMapper.dll
 E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\QuickMapper.pdb
-E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.csprojResolveAssemblyReference.cache
 E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.dll
 E:\dev\Repos\QuickMapper\QuickMapper\obj\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\QuickMapper.dll.config
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\Microsoft.CodeAnalysis.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.AppContext.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Collections.Immutable.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Console.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.IO.Compression.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.IO.FileSystem.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Reflection.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Reflection.Metadata.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Runtime.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Runtime.Extensions.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Runtime.InteropServices.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Threading.Thread.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.ValueTuple.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Xml.ReaderWriter.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Xml.XmlDocument.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Xml.XPath.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\Microsoft.CodeAnalysis.xml
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Collections.Immutable.xml
+E:\dev\Repos\QuickMapper\QuickMapper\bin\Debug\System.Reflection.Metadata.xml

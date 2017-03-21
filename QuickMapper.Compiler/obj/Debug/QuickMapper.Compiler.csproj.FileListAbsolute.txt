@@ -1,6 +1,3 @@
-E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.dll.config
-E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.dll
-E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.pdb
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\Microsoft.CodeAnalysis.dll
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.AppContext.dll
@@ -28,9 +25,15 @@ E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\Microsoft.CodeAnalysis.C
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.Collections.Immutable.xml
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.Reflection.Metadata.xml
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\obj\Debug\QuickMapper.Compiler.csprojResolveAssemblyReference.cache
-E:\dev\Repos\QuickMapper\QuickMapper.Compiler\obj\Debug\QuickMapper.Compiler.dll
-E:\dev\Repos\QuickMapper\QuickMapper.Compiler\obj\Debug\QuickMapper.Compiler.pdb
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.Reflection.Metadata.dll
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.ValueTuple.dll
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.Xml.XPath.dll
 E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.dll.config
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.Compiler.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\obj\Debug\QuickMapper.Compiler.dll
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\obj\Debug\QuickMapper.Compiler.pdb
+E:\dev\Repos\QuickMapper\QuickMapper.Compiler\bin\Debug\QuickMapper.dll.config
