@@ -13,21 +13,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Configuration">
-    <PackageId>QuickMapper.NuGetPackage</PackageId>
+    <PackageId>QuickMapper</PackageId>
     <PackageVersion Condition="'$(PackageVersion)' == ''">1.0.0</PackageVersion>
-    <Title>QuickMapper.NuGetPackage</Title>
-    <Authors>Tom</Authors>
-    <Owners>Tom</Owners>
-    <Summary>QuickMapper.NuGetPackage</Summary>
-    <Description>QuickMapper.NuGetPackage</Description>
+    <Title>QuickMapper</Title>
+    <Authors>Tom Christensen</Authors>
+    <Owners>Tom Christensen</Owners>
+    <Summary>QuickMapper emits CIL code to map objects with inferred naming.</Summary>
+    <Description>QuickMapper emits CIL code to map objects with inferred naming.</Description>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
     <PackageProjectUrl>
     </PackageProjectUrl>
     <PackageLicenseUrl>
     </PackageLicenseUrl>
-    <Copyright>Copyright © Tom</Copyright>
-    <PackageTags>QuickMapper.NuGetPackage</PackageTags>
+    <Copyright>Copyright © Tom Christensen</Copyright>
+    <PackageTags>QuickMapper</PackageTags>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
     <OutputPath>bin\$(Configuration)\</OutputPath>
@@ -43,6 +43,9 @@
     <PackageReference Include="NuGet.Build.Packaging">
       <Version>0.1.232-pr105</Version>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="System.Diagnostics.StackTrace">
+      <Version>4.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
