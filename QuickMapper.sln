@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMapper", "QuickMapper\QuickMapper.csproj", "{B3C860AE-2EF3-4014-A1D1-A3166CD7F214}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "QuickMapper.NuGetPackage", "QuickMapper.NuGetPackage\QuickMapper.NuGetPackage.nuproj", "{1C667432-6054-4436-A1E9-70F2AD004A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,14 @@ Global
 		{9F2AE8F2-CF4C-4662-B5FD-15B563792C82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F2AE8F2-CF4C-4662-B5FD-15B563792C82}.Release|x86.ActiveCfg = Release|x86
 		{9F2AE8F2-CF4C-4662-B5FD-15B563792C82}.Release|x86.Build.0 = Release|x86
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Debug|x86.ActiveCfg = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Debug|x86.Build.0 = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C667432-6054-4436-A1E9-70F2AD004A9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

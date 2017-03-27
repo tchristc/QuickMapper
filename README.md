@@ -6,9 +6,9 @@
 ```
 
 ### CI Build
-|Branch|Debug x86|
+|Branch|AnyCPU|
 |:--:|:--:|
-|**master**|[![quickmapper-ci MyGet Build Status](https://www.myget.org/BuildSource/Badge/quickmapper-ci?identifier=581f5f6a-603c-4381-8b19-eebf295fccfa)](https://www.myget.org/)
+|**master**|[![quickmapper-ci MyGet Build Status](https://www.myget.org/BuildSource/Badge/quickmapper-ci?identifier=f675cb57-f9ac-4634-87fe-2a3454c5d3ed)](https://www.myget.org/feed/Packages/quickmapper-ci)
 
 [QuickMapper - NuGet V3](https://www.myget.org/F/quickmapper-ci/api/v3/index.json)
 
